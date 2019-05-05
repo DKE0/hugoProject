@@ -1,0 +1,27 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Devis en ligne"
+theme = "hugo-serif-theme"
+
+[params]
+    google_analytics_id=""
+
+[[menu.main]]
+	name = "Services"
+	url = "/services/"
+    weight = 1
+
+[[menu.main]]
+    name = " Notre Equipe"
+    url = "/team/"
+    weight = 2
+
+[[menu.main]]
+	name = "Temoignages"
+	url = "/testimonials/"
+	weight = 3
+
+[[menu.main]]
+    name = "Nous Contacter"
+    url = "/contact/"
+    weight = 4
